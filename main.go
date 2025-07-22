@@ -9,6 +9,8 @@ func main() {
 
 	fmt.Println("feature/test 1")
 
+	fmt.Println("main 1")
+
 	fmt.Println("feature/test 2")
 
 	fmt.Println("feature/test 3")
