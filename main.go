@@ -1,22 +1,10 @@
 package main
 
 import (
-	"fmt"
+	"demo-test/internal/log"
 )
 
 func main() {
-	fmt.Println("hello world")
-
-	fmt.Println("feature/test 1")
-
-	fmt.Println("main 1")
-
-	fmt.Println("feature/test2 1")
-
-	fmt.Println("main 1")
-
-	fmt.Println("feature/test 2")
-
-	fmt.Println("feature/test 3")
-	fmt.Println("feature/test2 1")
+	log.LoggerInit()
+	log.Logger.Info("Hello, World!")
 }
